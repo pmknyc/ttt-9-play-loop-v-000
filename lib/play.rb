@@ -42,5 +42,5 @@ def play(board)
       turn(board)
       play_count += 1
       puts "play_count = #{play_count}"
-    end  
+    end
 end
