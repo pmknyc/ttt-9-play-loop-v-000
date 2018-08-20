@@ -36,7 +36,11 @@ def turn(board)
 end
 
 # Define your play method below
-def play
-
-
+def play(board)
+  play_count = 0
+    while play_count.between?(0,8)
+      turn(board)
+      play_count += 1
+      puts "play_count = #{play_count}"
+    end  
 end
