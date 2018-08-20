@@ -41,6 +41,6 @@ def play(board)
     while play_count.between?(0,8)
       turn(board)
       play_count += 1
-      puts "play_count = #{play_count}"
+      # See counter: puts "play_count = #{play_count}"
     end
 end
